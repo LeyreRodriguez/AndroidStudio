@@ -14,3 +14,5 @@ Semana 2:
 Semana 3:
   - TipTime
   - TipTime2
+  - TipTime 1.2
+  - Affirmation
