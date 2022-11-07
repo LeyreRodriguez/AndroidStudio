@@ -27,3 +27,7 @@ Semana 4:
   - Cupcake 1.2
   - Cupcake 1.3
   - Training Sports
+  
+ Semana 5:
+  - Investigación del funcionamiento de FireBase
+  - ULPGC Museum (Proyecto de la asignatura)
