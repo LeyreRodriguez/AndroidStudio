@@ -95,6 +95,9 @@ class InventoryActivity : AppCompatActivity(), MyAdapter.onItemClickListener {
 
         val intent = Intent(this,ItemActivity::class.java)
         intent.putExtra("Name", item.Name)
+        intent.putExtra("Year", item.Year)
+        intent.putExtra("Image", item.Image)
+        intent.putExtra("Description", item.Description)
         startActivity(intent)
 
 

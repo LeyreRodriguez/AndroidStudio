@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 
@@ -47,7 +48,7 @@ class MyAdapter(private val inventoryList : ArrayList<Item>, var clickListener: 
      class MyViewHolder(itemView : View, listener : onItemClickListener) : RecyclerView.ViewHolder(itemView){
 
 
-        val Name : Button = itemView.findViewById(R.id.buttonName)
+        val Name : TextView = itemView.findViewById(R.id.tvItem)
 
         fun initialize(item : Item, action : onItemClickListener){
             Name.text = item.Name
